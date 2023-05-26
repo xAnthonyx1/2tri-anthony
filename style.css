@@ -1,3 +1,41 @@
-body { 
-    background-image: linear-gradient(red, black);
+:root {
+    --cor-de-fundo:  #3aadf5;
 }
+
+ body {
+      background-color: var(--cor-de-fundo);
+ }
+
+ h1 {
+    background-color:  #8f0000;
+ }
+
+ :root {
+     --cor-de-fundo: #ca0000;
+     --cor-cavecalho: #ff0000;
+     --fundo-menu: #ff0505;
+ }
+
+ body {
+     background-color: var(--cor-de-fundo);
+ }
+
+ .cabecalho {
+      background-color: var(--cor-cabecalho);
+ }
+ .cabecalho-titulo {
+      font-size: 36px;
+      font-weight: 700;
+      padding: 12px;
+      text-align: center;
+ }
+
+ .cabecalho-menu-item {
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    border-top: 1px solid;
+ }
