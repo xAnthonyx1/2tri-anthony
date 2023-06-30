@@ -7,7 +7,7 @@
  }
 
  h1 {
-    background-color:  #8f0000;
+    background-color:  #580101;
  }
 
  :root {
@@ -39,3 +39,13 @@
     text-align: center;
     border-top: 1px solid;
  }
+ #burguer {
+    background-color: rgb(77, 0, 0);
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    }
+    #menu {
+    display: none;
+    }
